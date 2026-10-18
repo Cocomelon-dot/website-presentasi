@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.judul-utama {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bungkus-fasilitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.kotak-informasi {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kotak-informasi:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.nama-fasilitas {
+    color: #0056b3;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.detail-fasilitas {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.tombol-baca {
+    font-size: 13px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.bungkus-halaman, .ruang-sains {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.judul-halaman, .judul-sains {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+.gambar-fasilitas, .banner-sains {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.artikel-detail, .konten-sains {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.sub-judul, .topik-sains {
+    color: #0056b3;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.daftar-fitur, .list-alat-sains {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.daftar-fitur li, .list-alat-sains li {
+    margin-bottom: 8px;
+}
+
+.tombol-kembali, .link-kembali-sains {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.tombol-kembali:hover, .link-kembali-sains:hover {
+    background-color: #004085;
+}
